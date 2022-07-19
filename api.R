@@ -15,8 +15,6 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 #dcard
 
-#Please do not run the codes in this chunk. NCCU ips will be blocked.
-
 forum <- fromJSON("https://www.dcard.tw/service/api/v2/forums")
 
 nccu <- fromJSON("https://www.dcard.tw/service/api/v2/forums/nccu/posts")
